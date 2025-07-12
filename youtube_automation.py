@@ -5,7 +5,7 @@ import base64
 from datetime import datetime
 from googleapiclient.discovery import build
 
-CHANNEL_ID = "UCWHpL9Vm9toVlZ4hIMmqwCA"
+CHANNEL_ID = "UCrGLcV5AzC_ye2-GSmPMPcQ"
 API_KEY = os.getenv("YT_API_KEY")
 GITHUB_TOKEN = os.getenv("GH_TOKEN")
 REPO = "aliahmad9452/youtube-live"  # Just username/repo, no .git
