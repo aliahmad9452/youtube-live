@@ -5,7 +5,7 @@ import base64
 from datetime import datetime
 from googleapiclient.discovery import build
 
-CHANNEL_ID = "UCrGLcV5AzC_ye2-GSmPMPcQ"
+CHANNEL_ID = "UCWHpL9Vm9toVlZ4hIMmqwCA"
 API_KEY = os.getenv("YT_API_KEY")
 GITHUB_TOKEN = os.getenv("GH_TOKEN")
 REPO = "aliahmad9452/youtube-live"  # Just username/repo, no .git
@@ -33,3 +33,4 @@ def update_github(playlist):
     
     response = requests.put(url, headers=headers, json=data)
     print("GitHub API response:", response.status_code, response.text)
+
